@@ -9,6 +9,7 @@ const User = () => {
   const dispatch = useAppDispatch();
 
   const handleClickLogOut = () =>{
+    //
     dispatch(deleteUser());
     dispatch(deleteToken());
   }
